@@ -1,6 +1,6 @@
 theme: jekyll-theme-architect
 
-include: [ _pages ]
+include: [ pages ]
 
 # Variables used in pages
 title: Huiyuan Lai
