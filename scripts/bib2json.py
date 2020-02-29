@@ -35,8 +35,8 @@ def process_entry(entry):
     if processed['pubtype'] == 'inproceedings':
 #        print processed['pubtype']
         desc.append('In %s'%processed['booktitle'])
-        if processed.get('pages'):
-            desc.append('pp.%s'%processed['pages'])
+        if processed.get('_pages'):
+            desc.append('pp.%s'%processed['_pages'])
         desc.append(processed['publisher'])
 #        print ', '.join(desc)
 
@@ -55,8 +55,8 @@ def process_entry(entry):
         if processed.get('number'):
              vol.append('(%s)'%processed['number'])
         desc.append(''.join(vol))
-        if processed.get('pages'):
-            desc.append('pp.%s'%processed['pages'])
+        if processed.get('_pages'):
+            desc.append('pp.%s'%processed['_pages'])
         desc.append(processed['year'])
 #        print ', '.join(desc)
 
@@ -73,8 +73,8 @@ def process_entry(entry):
         desc.append(processed['booktitle'])
         desc.append(processed['series']),
         desc.append('volume %s'%processed['volume']),
-        if processed.get('pages'):
-            desc.append(processed['pages'])
+        if processed.get('_pages'):
+            desc.append(processed['_pages'])
         desc.append(processed['year'])
 #        print ', '.join(desc)
     else:
