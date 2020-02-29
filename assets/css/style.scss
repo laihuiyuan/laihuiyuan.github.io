@@ -29,8 +29,8 @@ header h2 {
 }
 
 aside .sidebar-item {
-    margin-top: 10px;
-    font-size: 17px;
+    margin-top: 15px;
+    font-size: 20px;
 }
 
 aside .material-icons {
@@ -111,12 +111,12 @@ aside .material-icons {
 
 #main-content h2:before {
     color: #ff9999;
-    content: "/";
+    content: "";
 }
 
 #main-content h3:before {
     color: #ff9999;
-    content: "//";
+    content: "";
 }
 
 #main-content h4:before {
