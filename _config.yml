@@ -1,7 +1,0 @@
-theme: jekyll-theme-architect
-
-include: [ _pages ]
-
-# Variables used in _pages
-title: Huiyuan Lai
-description: "Research and random thoughts on information and life"
