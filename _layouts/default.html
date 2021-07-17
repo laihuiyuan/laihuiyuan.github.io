@@ -24,9 +24,19 @@
         function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'UA-108224788-1');
-
-
+	    function copy(dest, source) {
+  		    if(dest.source == source) {
+  		        dest.innerHTML = "";
+  		        dest.source = null;
+  		    }
+  		    else {
+  		        dest.innerHTML = source.innerHTML;
+  		        dest.source = source;
+  		    }
+  		    dest.blur();
+	    }
     </script>
+
 </head>
 
 <body>
