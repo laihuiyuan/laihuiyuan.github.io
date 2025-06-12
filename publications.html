@@ -8,7 +8,31 @@
         text-decoration: none;
     }
     a:hover {color:#48D1CC;}
+    .tag-button {
+      display: inline-block;
+      padding: 2px 8px;
+      margin-right: 4px;
+      border-radius: 6px;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      font-family: sans-serif;
+      font-size: 12px;
+    }
 
+    .bib        { background-color: #3C80D1; }   /* Blue */
+    .pdf        { background-color: #F4A300; }   /* Orange */
+    .code-data  { background-color: #D9534F; }   /* Red */
+    .slides     { background-color: #4CAF50; }   /* Green */
+    .bib-content {
+      margin: 0;
+      background-color: white;
+      padding: 1px;
+      border: 1px solid #ccc;
+      border-radius: 2px;
+      font-family: monospace;
+      white-space: pre-wrap;
+    }
     </style>
 
     <script>
@@ -51,9 +75,10 @@
                     </font>
 
                     <p><font face="Arial">
-                        <a href="http://rug.nl"><b>University of Groningen</b></a><br>
-                        Office: Harmonie Complex, Room 1311.417, 9712 EK Groningen, The Netherlands<br>
-                        Email: Huiyuan Lai dot l AT gmail.com</font>
+                        <b><span style="font-size:18px; color:gray;">Postdoc Researcher</span></b>
+                        <a href="http://rug.nl" style="font-size:18px;"><b> @ University of Groningen</b></a><br><br>
+                        Office: Harmonie Complex, Room 1311.417, 9712 EK Groningen<br>
+                        Email: huiyuanlai dot l AT gmail.com</font>
                     </p>
 
                     <p style="display: flex; align-items: center; gap: 8px;">
@@ -103,35 +128,31 @@
                         <li><strong>Multidimensional Consistency Improves Reasoning in Language Models</strong>. <br>
                             <u>Huiyuan Lai</u>, Xiao Zhang, Malvina Nissim. <br>
                             <i>ArXiv preprint</i>.<br>
-                            <a href="javascript:copy(div28, bib28)">[bib]</a>
-                            <a href="https://arxiv.org/abs/2503.02670" target="_blank">[pdf]</a>
+                            <a href="javascript:copy(div28, bib28)" class="tag-button bib">bib</a>
+                            <a href="https://arxiv.org/abs/2503.02670" target="_blank" class="tag-button pdf">pdf</a>
                         </li>
                         <div id="div28"></div>
                         <div id="bib28" style="display:none">
-                            <div class="bib">
-
-<pre>
+                        <div class="bib-content"><pre>
 @article{lai-etal-2025-multi,
     title={Multidimensional Consistency Improves Reasoning in Language Models},
     author={Huiyuan Lai and Xiao Zhang and Malvina Nissim},
     year={2025},
     journal={arXiv preprint arXiv:2503.02670},
     url={https://arxiv.org/abs/2503.02670}
-}
+}</pre></div></div>
 </ul>
 
  <ul>
                         <li><strong>OntoURL: A Benchmark for Evaluating Large Language Models on Symbolic Ontology Understanding, Reasoning and Learning</strong>. <br>
                             Xiao Zhang, <u>Huiyuan Lai</u>, Qianru Meng, Johan Bos. <br>
                             <i>ArXiv preprint</i>.<br>
-                            <a href="javascript:copy(div27, bib27)">[bib]</a>
-                            <a href="https://arxiv.org/abs/2505.11031" target="_blank">[pdf]</a>
+                            <a href="javascript:copy(div27, bib27)" class="tag-button bib">bib</a>
+                            <a href="https://arxiv.org/abs/2505.11031" target="_blank" class="tag-button pdf">pdf</a>
                         </li>
                         <div id="div27"></div>
                         <div id="bib27" style="display:none">
-                            <div class="bib">
-
-<pre>
+                        <div class="bib-content"><pre>
 @article{zhang-etal-2025-ontourl,
     title={OntoURL: A Benchmark for Evaluating Large Language Models on
     Symbolic Ontology Understanding, Reasoning and Learning},
@@ -139,22 +160,21 @@
     year={2025},
     journal={arXiv preprint arXiv:2505.11031},
     url={https://arxiv.org/abs/2505.11031}
-}
+}</pre></div></div>
 </ul>
 
 <ul>
                         <li><strong>Multi-perspective Alignment for Increasing Naturalness in Neural Machine Translation</strong>. <br>
                             <u>Huiyuan Lai</u>, Esther Ploeger, Rik van Noord and Antonio Toral. <br>
                             <i>In Proceedings of ACL 2025</i>.<br>
-                            <a href="javascript:copy(div26, bib26)">[bib]</a>
-                            <a href="https://arxiv.org/abs/2412.08473" target="_blank">[pdf]</a>
+                            <a href="javascript:copy(div26, bib26)" class="tag-button bib">bib</a>
+                            <a href="https://arxiv.org/abs/2412.08473" target="_blank" class="tag-button pdf">pdf</a>
+                            <a href="https://github.com/laihuiyuan/Figurative-Language-Generation" target="_blank" class="tag-button code-data">code</a>
                         </li>
                         <div id="div26"></div>
                         <div id="bib26" style="display:none">
-                            <div class="bib">
-
-<pre>
-@article{lai-etal-2024-multi,
+                        <div class="bib-content"><pre>
+@article{lai-etal-2025-multi,
     title={Multi-perspective Alignment for Increasing Naturalness in
     Neural Machine Translation},
     author={Huiyuan Lai and Esther Ploeger and Rik van Noord and Antonio Toral},
@@ -164,21 +184,19 @@
     month = Jul,
     year = "2025",
     url={https://arxiv.org/abs/2412.08473}
-}
+}</pre></div></div>
 </ul>
 
 <ul>
                         <li><strong>POMP: Pathology-omics Multimodal Pre-training Framework for Cancer Survival Prediction</strong>. <br>
                             Suixue Wang, Shilin Zhang, <u>Huiyuan Lai</u>, Qingchen Zhang. <br>
                             <i>In Proceedings of IJCAI 2025</i>.<br>
-                            <a href="javascript:copy(div25, bib25)">[bib]</a>
-                            <a href="" target="_blank">[pdf]</a>
+                            <a href="javascript:copy(div25, bib25)" class="tag-button bib">bib</a>
+                            <a href="" target="_blank" class="tag-button pdf">pdf</a>
                         </li>
                         <div id="div25"></div>
                         <div id="bib25" style="display:none">
-                            <div class="bib">
-
-<pre>
+                        <div class="bib-content"><pre>
 @inproceedings{wang-etal-2025-pomp,
     title={POMP: Pathology-omics Multimodal Pre-training Framework for
     Cancer Survival Predictio},
@@ -187,7 +205,7 @@
     booktitle={Proceedings of the 34th International Joint Conference on Artificial
     Intelligence (IJCAI-25)},
     address={Montreal, Canada}
-}
+}</pre></div></div>
 </ul>
 
 
@@ -197,15 +215,13 @@
                         <li><strong>mCoT: Multilingual Instruction Tuning for Reasoning Consistency in Language Models</strong>. <br>
                             <u>Huiyuan Lai</u> and Malvina Nissim. <br>
                             <i>In Proceedings of ACL 2024</i>.<br>
-                            <a href="javascript:copy(div24, bib24)">[bib]</a>
-                            <a href="https://arxiv.org/abs/2406.02301" target="_blank">[pdf]</a>
-                            <a href="https://github.com/laihuiyuan/mcot" target="_blank">[code]</a>
+                            <a href="javascript:copy(div24, bib24)" class="tag-button bib">bib</a>
+                            <a href="https://arxiv.org/abs/2406.02301" target="_blank" class="tag-button pdf">pdf</a>
+                            <a href="https://github.com/laihuiyuan/mcot" target="_blank" class="tag-button code-data">code</a>
                         </li>
                         <div id="div24"></div>
                         <div id="bib24" style="display:none">
-                            <div class="bib">
-
-<pre>
+                        <div class="bib-content"><pre>
 @inproceedings{lai-nissim-2024-mcot,
     title = "m{C}o{T}: Multilingual Instruction Tuning for Reasoning
     Consistency in Language Models",
@@ -223,26 +239,20 @@
     url = "https://aclanthology.org/2024.acl-long.649",
     doi = "10.18653/v1/2024.acl-long.649",
     pages = "12012--12026"
-}
-</pre>
-
-                            </div>
-                        </div>
+}</pre></div></div>
 </ul>
 
 <ul>
                         <li><strong>Fine-tuning with HED-IT: The impact of human post-editing for dialogical language models</strong>. <br>
                             Daniela Occhipinti, Michele Marchi, Irene Mondella, <u>Huiyuan Lai</u>, Felice Dell'Orletta, Malvina Nissim, and Marco Guerini. <br>
                             <i>In Proceedings of ACL 2024 Findings</i>.<br>
-                            <a href="javascript:copy(div23, bib23)">[bib]</a>
-                            <a href="https://arxiv.org/abs/2406.07288" target="_blank">[pdf]</a>
-                            <a href="https://github.com/LanD-FBK/hed-it" target="_blank">[code]</a>
+                            <a href="javascript:copy(div23, bib23)" class="tag-button bib">bib</a>
+                            <a href="https://arxiv.org/abs/2406.07288" target="_blank" class="tag-button pdf">pdf</a>
+                            <a href="https://github.com/LanD-FBK/hed-it" target="_blank" class="tag-button code-data">code</a>
                         </li>
                         <div id="div23"></div>
                         <div id="bib23" style="display:none">
-                            <div class="bib">
-
-<pre>
+                        <div class="bib-content"><pre>
 @inproceedings{daniela-etal-2024-fine,
     title = "Fine-tuning with HED-IT: The impact of human post-editing for
     dialogical language models",
@@ -253,25 +263,19 @@
     for Computational Linguistics,
     year = {2024},
     address = {Bangkok, Thailand},
-}
-</pre>
-
-                            </div>
-                        </div>
+}</pre></div></div>
 </ul>
 
 <ul>
                         <li><strong>ContraMAE: Contrastive alignment masked autoencoder framework for cancer survival prediction</strong>. <br>
                             Suixue Wang, <u>Huiyuan Lai</u>, Shuling Wang, and Qingchen Zhang. <br>
                             <i>In Proceedings of IEEE BIBM 2024</i>.<br>
-                            <a href="javascript:copy(div22, bib22)">[bib]</a>
-                            <a href="" target="_blank">[pdf]</a>
+                            <a href="javascript:copy(div22, bib22)" class="tag-button bib">bib</a>
+                            <a href="https://ieeexplore.ieee.org/document/10821720" target="_blank" class="tag-button pdf">pdf</a>
                         </li>
                         <div id="div22"></div>
                         <div id="bib22" style="display:none">
-                            <div class="bib">
-
-<pre>
+                        <div class="bib-content"><pre>
 @inproceedings{wang-etal-2024-ContraMAE,
     title = "ContraMAE: Contrastive alignment masked autoencoder framework
     for cancer survival prediction",
@@ -280,26 +284,20 @@
     Bioinformatics and Biomedicine",
     year = {2024},
     address = {Lisbon, Portugal},
-}
-</pre>
-
-                            </div>
-                        </div>
+}</pre></div></div>
 </ul>
 
  <ul>
                         <li><strong>A Survey on Automatic Generation of Figurative Language: From Rule-based Systems to Large Language Models</strong>. <br>
                             <u>Huiyuan Lai</u> and Malvina Nissim. <br>
                             <i>ACM Computing Surveys</i>.<br>
-                            <a href="javascript:copy(div21, bib21)">[bib]</a>
-                            <a href="https://dl.acm.org/doi/abs/10.1145/3654795" target="_blank">[pdf]</a>
-                            <a href="https://github.com/laihuiyuan/Figurative-Language-Generation" target="_blank">[data]</a>
+                            <a href="javascript:copy(div21, bib21)" class="tag-button bib">bib</a>
+                            <a href="https://dl.acm.org/doi/abs/10.1145/3654795" target="_blank" class="tag-button pdf">pdf</a>
+                            <a href="https://github.com/laihuiyuan/Figurative-Language-Generation" target="_blank" class="tag-button code-data">data</a>
                         </li>
                         <div id="div21"></div>
                         <div id="bib21" style="display:none">
-                            <div class="bib">
-
-<pre>
+                        <div class="bib-content"><pre>
 @article{lai-etal-2024-agfl,
     title = "A Survey on Automatic Generation of Figurative Language:
     From Rule-based Systems to Large Language Models",
@@ -309,25 +307,19 @@
     doi = {http://dx.doi.org/10.1145/3654795},
     publisher = {Association for Computing Machinery},
     address = {New York, NY, USA},
-}
-</pre>
-
-                            </div>
-                        </div>
+}</pre></div></div>
 </ul>
 
 <ul>
                         <li><strong>Towards Tailored Recovery of Lexical Diversity in Literary Machine Translation</strong>. <br>
                             Esther Ploeger, <u>Huiyuan Lai</u>, Rik van Noord, Antonio Toral.<br>
                             In <i>Proceedings of the 25th Annual Conference of The European Association for Machine Translation</i>.<br>
-                            <a href="javascript:copy(div20, bib20)">[bib]</a>
-                            <a href="" target="_blank">[pdf]</a>
+                            <a href="javascript:copy(div20, bib20)" class="tag-button bib">bib</a>
+                            <a href=""  target="_blank" class="tag-button pdf">pdf</a>
                         </li>
                         <div id="div20"></div>
                         <div id="bib20" style="display:none">
-                            <div class="bib">
-
-<pre>
+                        <div class="bib-content"><pre>
 @inproceedings{ploeger-etal-2024-towards,
     title = "Towards Tailored Recovery of Lexical Diversity
     in Literary Machine Translation",
@@ -339,24 +331,19 @@
     Association for Machine Translation",
     year = "2024",
     address = "Sheffield, UK",
-}
-</pre>
-                            </div>
-                        </div>
+}</pre></div></div>
 </ul>
 
 <ul>
                         <li><strong>ReproHum #0033-3: Comparable Relative Results with Lower Absolute Values in a Reproduction Study</strong>. <br>
                             Yiru Li, <u>Huiyuan Lai</u>, Antonio Toral and Malvina Nissim.<br>
                             In <i>Proceedings of the 4th Workshop on Human Evaluation of NLP Systems</i>.<br>
-                            <a href="javascript:copy(div19, bib19)">[bib]</a>
-                            <a href="" target="_blank">[pdf]</a>
+                            <a href="javascript:copy(div19, bib19)" class="tag-button bib">bib</a>
+                            <a href="https://aclanthology.org/2024.humeval-1.21.pdf" target="_blank" class="tag-button pdf">pdf</a>
                         </li>
                         <div id="div19"></div>
                         <div id="bib19" style="display:none">
-                            <div class="bib">
-
-<pre>
+                        <div class="bib-content"><pre>
 @inproceedings{li-etal-2024-comparable,
     title = "ReproHum #0033-3: Comparable Relative Results with Lower
     Absolute Values in a Reproduction Study",
@@ -367,23 +354,19 @@
     booktitle = "Proceedings of the 4th Workshop on Human Evaluation of NLP Systems",
     year = "2024",
     address = "Turin, Italy",
-</pre>
-                            </div>
-                        </div>
+}</pre></div></div>
 </ul>
 
 <ul>
                         <li><strong>ReproHum #0892-01: The painful route to consistent results: A reproduction study of human evaluation in NLG</strong>. <br>
                             Irene Mondella, <u>Huiyuan Lai</u> and Malvina Nissim.<br>
                             In <i>Proceedings of the 4th Workshop on Human Evaluation of NLP Systems</i>.<br>
-                            <a href="javascript:copy(div18, bib18)">[bib]</a>
-                            <a href="" target="_blank">[pdf]</a>
+                            <a href="javascript:copy(div18, bib18)" class="tag-button bib">bib</a>
+                            <a href="https://aclanthology.org/2024.humeval-1.24/" target="_blank" class="tag-button pdf">pdf</a>
                         </li>
                         <div id="div18"></div>
                         <div id="bib18" style="display:none">
-                            <div class="bib">
-
-<pre>
+                        <div class="bib-content"><pre>
 @inproceedings{mondella-etal-2024-the,
     title = "ReproHum #0892-01: The painful route to consistent results:
     A reproduction study of human evaluation in NLG",
@@ -393,9 +376,7 @@
     booktitle = "Proceedings of the 4th Workshop on Human Evaluation of NLP Systems",
     year = "2024",
     address = "Turin, Italy",
-</pre>
-                            </div>
-                        </div>
+}</pre></div></div>
 </ul>
 
 
@@ -403,14 +384,12 @@
                         <li><strong>Neural Text Rewriting: Style Transfer, Figurative Language, and Beyond</strong>. <br>
                             <u>Huiyuan Lai</u>. <br>
                             <i>PhD Thesis; University of Groningen</i>.<br>
-                            <a href="javascript:copy(div17, bib17)">[bib]</a>
-                            <a href="https://research.rug.nl/en/publications/neural-text-rewriting-style-transfer-figurative-language-and-beyo" target="_blank">[pdf]</a>
+                            <a href="javascript:copy(div17, bib17)" class="tag-button bib">bib</a>
+                            <a href="https://research.rug.nl/en/publications/neural-text-rewriting-style-transfer-figurative-language-and-beyo" target="_blank" class="tag-button pdf">pdf</a>
                         </li>
                         <div id="div17"></div>
                         <div id="bib17" style="display:none">
-                            <div class="bib">
-
-<pre>
+                        <div class="bib-content"><pre>
 @phdthesis{lai-2024-neural,
     title = "Neural Text Rewriting: Style Transfer, Figurative Language, and Beyond",
     author = "Lai, Huiyuan",
@@ -419,11 +398,7 @@
     doi = {https://doi.org/10.33612/diss.910519765},
     url={https://research.rug.nl/en/publications/
     neural-text-rewriting-style-transfer-figurative-language-and-beyo}
-}
-</pre>
-
-                            </div>
-                        </div>
+}</pre></div></div>
 </ul>
 
 
@@ -434,40 +409,32 @@
                         <li><strong>Multidimensional Evaluation for Text Style Transfer Using ChatGPT</strong>. <br>
                             <u>Huiyuan Lai</u>, Antonio Toral and Malvina Nissim.<br>
                             <i>Arxiv preprint</i>.<br>
-                            <a href="javascript:copy(div16, bib16)">[bib]</a>
-                            <a href="https://arxiv.org/abs/2304.13462v1" target="_blank">[pdf]</a>
-                            <a href="https://github.com/laihuiyuan/eval-formality-transfer" target="_blank">[code]</a>
+                            <a href="javascript:copy(div16, bib16)" class="tag-button bib">bib</a>
+                            <a href="https://arxiv.org/abs/2304.13462v1" target="_blank" class="tag-button pdf">pdf</a>
+                            <a href="https://github.com/laihuiyuan/eval-formality-transfer" target="_blank" class="tag-button code-data">code</a>
                         </li>
                         <div id="div16"></div>
                         <div id="bib16" style="display:none">
-                            <div class="bib">
-
-<pre>
+                        <div class="bib-content"><pre>
 @article{lai2023multidimensional,
     title={Multidimensional Evaluation for Text Style Transfer Using ChatGPT},
     author={Huiyuan Lai and Antonio Toral and Malvina Nissim},
     year={2023},
     journal={arXiv preprint arXiv:2304.13462},
     url={https://arxiv.org/abs/2304.13462}
-}
-</pre>
-
-                            </div>
-                        </div>
+}</pre></div></div>
 </ul>
 
 <ul>
                         <li><strong>Same Trends, Different Answers: Insights from a Replication Study of Human Plausibility Judgments on Narrative Continuations</strong>. <br>
                             Yiru Li, <u>Huiyuan Lai</u>, Antonio Toral and Malvina Nissim.<br>
                             In <i>Proceedings of the 3rd Workshop on Human Evaluation of NLP Systems (@ RANLP 2023)</i>.<br>
-                            <a href="javascript:copy(div14, bib14)">[bib]</a>
-                            <a href="https://aclanthology.org/2023.humeval-1.15/" target="_blank">[pdf]</a>
+                            <a href="javascript:copy(div14, bib14)" class="tag-button bib">bib</a>
+                            <a href="https://aclanthology.org/2023.humeval-1.15/" target="_blank" class="tag-button pdf">pdf</a>
                         </li>
                         <div id="div14"></div>
                         <div id="bib14" style="display:none">
-                            <div class="bib">
-
-<pre>
+                        <div class="bib-content"><pre>
 @inproceedings{li-etal-2023-trends,
     title = "Same Trends, Different Answers: Insights from a Replication Study of Human
     Plausibility Judgments on Narrative Continuations",
@@ -482,25 +449,20 @@
     publisher = "INCOMA Ltd., Shoumen, Bulgaria",
     url = "https://aclanthology.org/2023.humeval-1.15",
     pages = "190--203",
-</pre>
-                            </div>
-                        </div>
+}</pre></div></div>
 </ul>
 
-
-                                        <ul>
+<ul>
                         <li><strong>Multilingual Multi-Figurative Language Detection</strong>. <br>
                             <u>Huiyuan Lai</u>, Antonio Toral and Malvina Nissim. <br>
                             In <i>Proceedings of ACL 2023 Findings</i>.<br>
-                            <a href="javascript:copy(div13, bib13)">[bib]</a>
-                            <a href="https://aclanthology.org/2023.findings-acl.589/" target="_blank">[pdf]</a>
-                            <a href="https://github.com/laihuiyuan/MMFLD" target="_blank">[code]</a>
+                            <a href="javascript:copy(div13, bib13)" class="tag-button bib">bib</a>
+                            <a href="https://aclanthology.org/2023.findings-acl.589/" target="_blank" class="tag-button pdf">pdf</a>
+                            <a href="https://github.com/laihuiyuan/MMFLD" target="_blank" class="tag-button code-data">code</a>
                         </li>
                         <div id="div13"></div>
                         <div id="bib13" style="display:none">
-                            <div class="bib">
-
-<pre>
+                        <div class="bib-content"><pre>
 @inproceedings{lai-etal-2023-multilingual,
     title = "Multilingual Multi-Figurative Language Detection",
     author = "Lai, Huiyuan  and
@@ -517,27 +479,20 @@
     url = "https://aclanthology.org/2023.findings-acl.589",
     doi = "10.18653/v1/2023.findings-acl.589",
     pages = "9254--9267",
-}
-</pre>
+}</pre></div></div>
+</ul>
 
-                            </div>
-                        </div>
-                    </ul>
-
-
-                    <ul>
+<ul>
                         <li><strong>Pre-Trained Language-Meaning Models for Multilingual Parsing and Generation</strong>. <br>
                             Chunliu Wang*, <u>Huiyuan Lai</u>*, Malvina Nissim and Johan Bos. <br>
                             In <i>Proceedings of ACL 2023 Findings</i>.<br>
-                            <a href="javascript:copy(div12, bib12)">[bib]</a>
-                            <a href="https://aclanthology.org/2023.findings-acl.345/" target="_blank">[pdf]</a>
-                            <a href="https://github.com/wangchunliu/DRS-pretrained-LMM" target="_blank">[code]</a>
+                            <a href="javascript:copy(div12, bib12)" class="tag-button bib">bib</a>
+                            <a href="https://aclanthology.org/2023.findings-acl.345/" target="_blank" class="tag-button pdf">pdf</a>
+                            <a href="https://github.com/wangchunliu/DRS-pretrained-LMM" target="_blank" class="tag-button code-data">code</a>
                         </li>
                         <div id="div12"></div>
                         <div id="bib12" style="display:none">
-                            <div class="bib">
-
-<pre>
+                        <div class="bib-content"><pre>
 @inproceedings{wang-etal-2023-pre,
     title = "Pre-Trained Language-Meaning Models for Multilingual
       Parsing and Generation",
@@ -553,27 +508,20 @@
     url = "https://aclanthology.org/2023.findings-acl.345",
     doi = "10.18653/v1/2023.findings-acl.345",
     pages = "5586--5600",
-}
-</pre>
-
-                            </div>
-                        </div>
-                    </ul>
-
+}</pre></div></div>
+</ul>
 
 <ul>
                         <li><strong>Responsibility Perspective Transfer for Italian Femicide News</strong>. <br>
                             Gosse Minnema*, <u>Huiyuan Lai</u>*, Benedetta Muscato and Malvina Nissim. <br>
                             In <i>Proceedings of ACL 2023 Findings</i>.<br>
-                            <a href="javascript:copy(div11, bib11)">[bib]</a>
-                            <a href="https://aclanthology.org/2023.findings-acl.501/" target="_blank">[pdf]</a>
-                            <a href="https://github.com/gossminn/responsibility-perspective-transfer" target="_blank">[code]</a>
+                            <a href="javascript:copy(div11, bib11)" class="tag-button bib">bib</a>
+                            <a href="https://aclanthology.org/2023.findings-acl.501/" target="_blank" class="tag-button pdf">pdf</a>
+                            <a href="https://github.com/gossminn/responsibility-perspective-transfer" target="_blank" class="tag-button code-data">code</a>
                         </li>
                         <div id="div11"></div>
                         <div id="bib11" style="display:none">
-                            <div class="bib">
-
-<pre>
+                        <div class="bib-content"><pre>
 @inproceedings{minnema-etal-2023-responsibility,
     title = "Responsibility Perspective Transfer for {I}talian Femicide News",
     author = "Minnema, Gosse  and
@@ -588,26 +536,19 @@
     url = "https://aclanthology.org/2023.findings-acl.501",
     doi = "10.18653/v1/2023.findings-acl.501",
     pages = "7907--7918",
-}
-</pre>
+}</pre></div></div>
+</ul>
 
-                            </div>
-                        </div>
-                    </ul>
-
-
-                    <ul>
+<ul>
                         <li><strong>Missing Information, Unresponsive Authors, Experimental Flaws: The Impossibility of Assessing the Reproducibility of Previous Human Evaluations in NLP</strong>. <br>
                             Anya Belz, et al. <br>
                             In <i>Proceedings of the Fourth Workshop on Insights from Negative Results in NLP (@ EACL 2023)</i>.<br>
-                            <a href="javascript:copy(div10, bib10)">[bib]</a>
-                            <a href="https://aclanthology.org/2023.insights-1.1/" target="_blank">[pdf]</a>
+                            <a href="javascript:copy(div10, bib10)" class="tag-button bib">bib</a>
+                            <a href="https://aclanthology.org/2023.insights-1.1/" target="_blank" class="tag-button pdf">pdf</a>
                         </li>
                         <div id="div10"></div>
                         <div id="bib10" style="display:none">
-                            <div class="bib">
-
-<pre>
+                        <div class="bib-content"><pre>
 @inproceedings{belz-etal-2023-missing,
     title = "Missing Information, Unresponsive Authors,
     Experimental Flaws: The Impossibility of Assessing the Reproducibility
@@ -622,25 +563,19 @@
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2023.insights-1.1",
     pages = "1--10",
-}
-</pre>
-
-                            </div>
-                        </div>
-                    </ul>
+}</pre></div></div>
+</ul>
 
  <ul>
                         <li><strong>A Text Style Transfer System for Reducing the Physician-Patient Expertise Gap: an Analysis with Automatic and Human Evaluations</strong>. <br>
                              Luca Bacco, Felice Dell'Orletta, <u>Huiyuan Lai</u>, Mario Merone, Malvina Nissim<br>
                             <i>Expert Systems with Applications</i>.<br>
-                            <a href="javascript:copy(div9, bib9)">[bib]</a>
-                            <a href="https://www.sciencedirect.com/science/article/abs/pii/S0957417423013763" target="_blank">[pdf]</a>
+                            <a href="javascript:copy(div9, bib9)" class="tag-button bib">bib</a>
+                            <a href="https://www.sciencedirect.com/science/article/abs/pii/S0957417423013763" target="_blank" class="tag-button pdf">pdf</a>
                         </li>
                         <div id="div9"></div>
                         <div id="bib9" style="display:none">
-                            <div class="bib">
-
-<pre>
+                        <div class="bib-content"><pre>
 @article{bacco-etal-2023-atext,
     title = {A text style transfer system for reducing the physician–patient
     expertise gap: An analysis with automatic and human evaluations},
@@ -653,30 +588,25 @@
     issn = {0957-4174},
     doi = {https://doi.org/10.1016/j.eswa.2023.120874},
     url = {https://www.sciencedirect.com/science/article/pii/S0957417423013763},
-</pre>
-
-                            </div>
-                        </div>
-                    </ul>
+}</pre></div></div>
+</ul>
 
 
                     <h3>2022</h3>
 
-                    <ul>
+<ul>
                         <li><strong>Multi-Figurative Language Generation</strong>. <br>
                             <u>Huiyuan Lai</u> and Malvina Nissim. <br>
                             In <i>Proceedings of COLING 2022</i>.<br>
-                            <a href="javascript:copy(div8, bib8)">[bib]</a>
-                            <a href="https://aclanthology.org/2022.coling-1.519/" target="_blank">[pdf]</a>
-                            <a href="https://github.com/laihuiyuan/mflag" target="_blank">[code]</a>
+                            <a href="javascript:copy(div8, bib8)" class="tag-button bib">bib</a>
+                            <a href="https://aclanthology.org/2022.coling-1.519/" target="_blank" class="tag-button pdf">pdf</a>
+                            <a href="https://github.com/laihuiyuan/mflag" target="_blank" class="tag-button code-data">code</a>
                             <a href="https://github.com/laihuiyuan/laihuiyuan.github.io/blob/master/slides/COLING2022-mFLAG.pdf"
-                               target="_blank">[slides]</a>
+                                target="_blank" class="tag-button slides">slides</a>
                         </li>
                         <div id="div8"></div>
                         <div id="bib8" style="display:none">
-                            <div class="bib">
-
-<pre>
+                        <div class="bib-content"><pre>
 @inproceedings{lai-nissim-2022-multi,
     title = "Multi-Figurative Language Generation",
     author = "Lai, Huiyuan  and Nissim, Malvina",
@@ -688,28 +618,23 @@
     publisher = "International Committee on Computational Linguistics",
     url = "https://aclanthology.org/2022.coling-1.519",
     pages = "5939--5954",
-}
-</pre>
-                            </div>
-                        </div>
-                    </ul>
+}</pre></div></div>
+</ul>
 
-
-                    <ul>
+<ul>
                         <li><strong>Human Judgement as a Compass to Navigate Automatic Metrics for Formality
                             Transfer</strong>. <br>
                             <u>Huiyuan Lai</u>, Jiali Mao, Antonio Toral and Malvina Nissim. <br>
                             In <i>Proceedings of the 2nd Workshop on Human Evaluation of NLP Systems (@ ACL 2022)</i>.<br>
-                            <a href="javascript:copy(div7, bib7)">[bib]</a>
-                            <a href="https://aclanthology.org/2022.humeval-1.9/" target="_blank">[pdf]</a>
-                            <a href="https://github.com/laihuiyuan/eval-formality-transfer" target="_blank">[code]</a>
+                            <a href="javascript:copy(div7, bib7)" class="tag-button bib">bib</a>
+                            <a href="https://aclanthology.org/2022.humeval-1.9/" target="_blank" class="tag-button pdf">pdf</a>
+                            <a href="https://github.com/laihuiyuan/eval-formality-transfer" target="_blank" class="tag-button code-data">code</a>
                             <a href="https://github.com/laihuiyuan/laihuiyuan.github.io/blob/master/slides/HumEval2022-slides.pdf"
-                               target="_blank">[slides]</a>
+                               target="_blank" class="tag-button slides">slides</a>
                         </li>
                         <div id="div7"></div>
                         <div id="bib7" style="display:none">
-                            <div class="bib">
-<pre>
+                        <div class="bib-content"><pre>
 @inproceedings{lai-etal-2022-human,
     title = "Human Judgement as a Compass to Navigate Automatic
     Metrics for Formality Transfer",
@@ -726,28 +651,23 @@
     url = "https://aclanthology.org/2022.humeval-1.9",
     doi = "10.18653/v1/2022.humeval-1.9",
     pages = "102--115",
-}
-</pre>
-                            </div>
-                        </div>
-                    </ul>
+}</pre></div></div>
+</ul>
 
-
-                    <ul>
+<ul>
                         <li><strong>Multilingual Pre-training with Language and Task Adaptation for Multilingual
                             Text Style Transfer</strong>. <br>
                             <u>Huiyuan Lai</u>, Antonio Toral and Malvina Nissim. <br>
                             In <i>Proceedings of ACL 2022</i>. <br>
-                            <a href="javascript:copy(div6, bib6)">[bib]</a>
-                            <a href="https://aclanthology.org/2022.acl-short.29/" target="_blank">[pdf]</a>
-                            <a href="https://github.com/laihuiyuan/Multilingual-TST" target="_blank">[code]</a>
+                            <a href="javascript:copy(div6, bib6)" class="tag-button bib">bib</a>
+                            <a href="https://aclanthology.org/2022.acl-short.29/" target="_blank" class="tag-button pdf">pdf</a>
+                            <a href="https://github.com/laihuiyuan/Multilingual-TST" target="_blank" class="tag-button code-data">code</a>
                             <a href="https://github.com/laihuiyuan/laihuiyuan.github.io/blob/master/slides/ACL2022-slides.pdf"
-                               target="_blank">[slides]</a>
+                               target="_blank" class="tag-button slides">slides</a>
                         </li>
                         <div id="div6"></div>
                         <div id="bib6" style="display:none">
-                            <div class="bib">
-<pre>
+                        <div class="bib-content"><pre>
 @inproceedings{lai-etal-2022-multilingual,
     title = "Multilingual Pre-training with Language and Task Adaptation
     for Multilingual Text Style Transfer",
@@ -763,11 +683,8 @@
     url = "https://aclanthology.org/2022.acl-short.29",
     doi = "10.18653/v1/2022.acl-short.29",
     pages = "262--271",
-}
-</pre>
-                            </div>
-                        </div>
-                    </ul>
+}</pre></div></div>
+</ul>
 
 
                     <h3>2021</h3>
@@ -777,16 +694,15 @@
                             task-specific parallel training data</strong>. <br>
                             <u>Huiyuan Lai</u>, Antonio Toral and Malvina Nissim. <br>
                             In <i>Proceedings of EMNLP 2021</i>.<br>
-                            <a href="javascript:copy(div5, bib5)">[bib]</a>
-                            <a href="https://aclanthology.org/2021.emnlp-main.349/" target="_blank">[pdf]</a>
-                            <a href="https://github.com/laihuiyuan/Generic-resources-for-TST" target="_blank">[code]</a>
+                            <a href="javascript:copy(div5, bib5)" class="tag-button bib">bib</a>
+                            <a href="https://aclanthology.org/2021.emnlp-main.349/" target="_blank" class="tag-button pdf">pdf</a>
+                            <a href="https://github.com/laihuiyuan/Generic-resources-for-TST" target="_blank" class="tag-button code-data">code</a>
                             <a href="https://github.com/laihuiyuan/laihuiyuan.github.io/blob/master/slides/EMNLP2021-Generic-resources-TST.pdf"
-                               target="_blank">[slides]</a>
+                               target="_blank" class="tag-button slides">slides</a>
                         </li>
                         <div id="div5"></div>
                         <div id="bib5" style="display:none">
-                            <div class="bib">
-<pre>
+                        <div class="bib-content"><pre>
 @inproceedings{lai-etal-2021-generic,
     title = "Generic resources are what you need: Style transfer tasks without
     task-specific parallel training data",
@@ -802,25 +718,21 @@
     url = "https://aclanthology.org/2021.emnlp-main.349",
     doi = "10.18653/v1/2021.emnlp-main.349",
     pages = "4241--4254",
-}
-</pre>
-                            </div>
-                        </div>
-                    </ul>
+}</pre></div></div>
+</ul>
 
 
-                    <ul>
+<ul>
                         <li><strong>Human Perception in Natural Language Generation</strong>. <br>
                             Lorenzo De Mattei*, <u>Huiyuan Lai</u>*, Felice Dell’Orletta, Malvina Nissim. <br>
                             In <i>Proceedings of the 1st Workshop on Generation Evaluation and
                                 Metrics (@ ACL 2021)</i>. <br>
-                            <a href="javascript:copy(div4, bib4)">[bib]</a>
-                            <a href="https://aclanthology.org/2021.gem-1.2.pdf" target="_blank">[pdf]</a>
+                            <a href="javascript:copy(div4, bib4)" class="tag-button bib">bib</a>
+                            <a href="https://aclanthology.org/2021.gem-1.2.pdf" target="_blank" class="tag-button pdf">pdf</a>
                         </li>
                         <div id="div4"></div>
                         <div id="bib4" style="display:none">
-                            <div class="bib">
-<pre>
+                        <div class="bib-content"><pre>
 @inproceedings{de-mattei-etal-2021-human,
     title = "Human Perception in Natural Language Generation",
     author = "De Mattei, Lorenzo  and
@@ -836,11 +748,8 @@
     url = "https://aclanthology.org/2021.gem-1.2",
     doi = "10.18653/v1/2021.gem-1.2",
     pages = "15--23",
-}
-</pre>
-                            </div>
-                        </div>
-                    </ul>
+}</pre></div></div>
+</ul>
 
 
                     <ul>
@@ -848,17 +757,15 @@
                             Transfer</strong>. <br>
                             <u>Huiyuan Lai</u>, Antonio Toral and Malvina Nissim. <br>
                             In <i>Proceedings of ACL 2021</i>. <br>
-                            <a href="javascript:copy(div3, bib3)">[bib]</a>
-                            <a href="https://aclanthology.org/2021.acl-short.62/" target="_blank">[pdf]</a>
-                            <a href="https://github.com/laihuiyuan/Pre-trained-formality-transfer"
-                               target="_blank">[code]</a>
+                            <a href="javascript:copy(div3, bib3)" class="tag-button bib">bib</a>
+                            <a href="https://aclanthology.org/2021.acl-short.62/" target="_blank" class="tag-button pdf">pdf</a>
+                            <a href="https://github.com/laihuiyuan/Pre-trained-formality-transfer" target="_blank" class="tag-button code-data">code</a>
                             <a href="https://github.com/laihuiyuan/laihuiyuan.github.io/blob/master/slides/ACL2021-pre-trained-formality-transfer.pdf"
-                               target="_blank">[slides]</a>
+                               target="_blank" class="tag-button slides">slides</a>
                         </li>
                         <div id="div3"></div>
                         <div id="bib3" style="display:none">
-                            <div class="bib">
-<pre>
+                        <div class="bib-content"><pre>
 @inproceedings{lai-etal-2021-thank,
     title = "Thank you {BART}! Rewarding Pre-Trained Models
     Improves Formality Style Transfer",
@@ -875,11 +782,8 @@
     url = "https://aclanthology.org/2021.acl-short.62",
     doi = "10.18653/v1/2021.acl-short.62",
     pages = "484--494",
-}
-</pre>
-                            </div>
-                        </div>
-                    </ul>
+}</pre></div></div>
+</ul>
 
 
                     <h3>2020</h3>
@@ -890,14 +794,12 @@
                             Lorenzo De Mattei, Michele Cafagna, <u>Huiyuan Lai</u>, Felice Dell’Orletta, Malvina Nissim
                             and Albert Gatt.  <br>
                             In <i>Proceedings of the 1st Workshop on Evaluating NLG Evaluation (@ INLG 2020)</i>. <br>
-                            <a href="javascript:copy(div2, bib2)">[bib]</a>
-                            <a href="https://aclanthology.org/2020.evalnlgeval-1.5/"
-                               target="_blank">[pdf]</a>
+                            <a href="javascript:copy(div2, bib2)" class="tag-button bib">bib</a>
+                            <a href="https://aclanthology.org/2020.evalnlgeval-1.5/" target="_blank" class="tag-button pdf">pdf</a>
                         </li>
                         <div id="div2"></div>
                         <div id="bib2" style="display:none">
-                            <div class="bib">
-<pre>
+                        <div class="bib-content"><pre>
 @inproceedings{mattei-etal-2020-interaction,
     title = "On the interaction of automatic evaluation
     and task framing in headline style transfer",
@@ -914,11 +816,8 @@
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2020.evalnlgeval-1.5",
     pages = "38--43",
-}
-</pre>
-                            </div>
-                        </div>
-                    </ul>
+}</pre></div></div>
+</ul>
 
 
                     <ul>
@@ -926,14 +825,12 @@
                             Matching</strong>. <br>
                             <u>Huiyuan Lai</u>, Yizheng Tao, Chunliu Wang, Lunfan Xu, Dingyong Tang, Gongliang Li.<br>
                             <i>Multimedia Tools and Applications</i>, 2019. <br>
-                            <a href="javascript:copy(div1, bib1)">[bib]</a>
-                            <a href="https://link.springer.com/article/10.1007/s11042-018-7063-5"
-                               target="_blank">[pdf]</a>
+                            <a href="javascript:copy(div1, bib1)" class="tag-button bib">bib</a>
+                            <a href="https://link.springer.com/article/10.1007/s11042-018-7063-5" target="_blank" class="tag-button pdf">pdf</a>
                         </li>
                         <div id="div1"></div>
                         <div id="bib1" style="display:none">
-                            <div class="bib">
-<pre>
+                        <div class="bib-content"><pre>
 @article{Lai2019BidirectionalAC,
     title   = {Bi-directional attention comparison for semantic sentence matching},
     author  = {Huiyuan Lai and Yizheng Tao and Chunliu Wang and
@@ -944,13 +841,8 @@
     doi = {https://doi.org/10.1007/s11042-018-7063-5},
     url = {https://link.springer.com/article/10.1007/s11042-018-7063-5},
     pages   = {14609-14624}
-}
-</pre>
-                            </div>
-                        </div>
-                    </ul>
-                    </ul>
-
+}</pre></div></div>
+</ul>
 
                     <h3>2019</h3>
 
@@ -958,14 +850,12 @@
                         <li><strong>文本相似度计算方法研究综述 (A Review of Text Similarity Approaches)</strong>. <br>
                             王春柳, 杨永辉, 邓霏, 赖辉源. <br>
                             <i>情报科学</i>, 2019. <br>
-                            <a href="javascript:copy(div0, bib0)">[bib]</a>
-                            <a href="https://www.cnki.com.cn/Article/CJFDTotal-QBKX201903026.htm"
-                               target="_blank">[pdf]</a>
+                            <a href="javascript:copy(div0, bib0)" class="tag-button bib">bib</a>
+                            <a href="https://www.cnki.com.cn/Article/CJFDTotal-QBKX201903026.htm" target="_blank" class="tag-button pdf">pdf</a>
                         </li>
                         <div id="div0"></div>
                         <div id="bib0" style="display:none">
-                            <div class="bib">
-<pre>
+                        <div class="bib-content"><pre>
 @article{wang2019review,
     title={文本相似度计算方法研究综述},
     author={王春柳 and 杨永辉 and 邓霏 and <u>赖辉源</u>},
@@ -974,11 +864,8 @@
     number={3},
     pages={158--168},
     year={2019}
-}
-</pre>
-                            </div>
-                        </div>
-                    </ul>
+}</pre></div></div>
+</ul>
                                         <center>
     <hr>
     <p style="display: flex; align-items: center; justify-content: center; gap: 5px; text-align: center;">
