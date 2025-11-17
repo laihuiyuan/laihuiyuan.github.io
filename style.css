@@ -1,0 +1,50 @@
+body {
+  background-color: #fff;
+  font-family: Georgia;
+}
+
+h3 {
+    color: #191970;
+    margin-top: 25px;
+    margin-bottom: -8px;
+}
+
+
+.line {
+  height: 2px;
+  margin: 10px 0;
+  background: linear-gradient( transparent, #ccc, transparent);
+}
+
+a{
+    color:#29498A;
+    text-decoration: none;
+}
+
+a:hover {color:#191970;}
+
+.tag-button {
+      display: inline-block;
+      padding: 2px 8px;
+      margin-right: 4px;
+      border-radius: 6px;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      font-family: sans-serif;
+      font-size: 12px;
+}
+
+.bib        { background-color: #3C80D1; }   /* Blue */
+.pdf        { background-color: #F4A300; }   /* Orange */
+.code-data  { background-color: #D9534F; }   /* Red */
+.slides     { background-color: #4CAF50; }   /* Green */
+.bib-content {
+      margin: 0;
+      background-color: white;
+      padding: 1px;
+      border: 1px solid #ccc;
+      border-radius: 2px;
+      font-family: monospace;
+      white-space: pre-wrap;
+}
