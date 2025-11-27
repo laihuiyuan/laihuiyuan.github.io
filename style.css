@@ -42,9 +42,9 @@ a:hover {color:#191970;}
 .bib-content {
       margin: 0;
       background-color: white;
-      padding: 1px;
+      padding: 5px;
       border: 1px solid #ccc;
-      border-radius: 2px;
+      border-radius: 1px;
       font-family: monospace;
       white-space: pre-wrap;
 }
