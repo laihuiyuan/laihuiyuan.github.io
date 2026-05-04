@@ -1,117 +1,94 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>Huiyuan Lai</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huiyuan Lai — Homepage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script src="shared-layout.js" defer></script>
 
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'UA-108224788-1');
-	    function copy(dest, source) {
-  		    if(dest.source == source) {
-  		        dest.innerHTML = "";
-  		        dest.source = null;
-  		    }
-  		    else {
-  		        dest.innerHTML = source.innerHTML;
-  		        dest.source = source;
-  		    }
-  		    dest.blur();
-	    }
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-108224788-1');
+
+        function copy(dest, source) {
+            if (dest.source === source) {
+                dest.innerHTML = "";
+                dest.source = null;
+            } else {
+                dest.innerHTML = source.innerHTML;
+                dest.source = source;
+            }
+            dest.blur();
+        }
     </script>
 </head>
 
-<body>
-<center>
-    <table border="0" cellpadding="0" cellspacing="0" width="850">
-        <tbody>
-        <tr>
-            <td colspan="4"></td>
-        </tr>
-        <tr>
-            <td valign="bottom"></td>
-            <td width="30"></td>
-            <td width="220">
-                <img src="img/huiyuan.png" width="148">
-            </td>
+<body class="lhy-site" data-site-page="publications">
 
-            <td width="500">
-                <font size="6"><a href="/"><strong>Huiyuan Lai (赖辉源)</strong></a></font></b>
+<div id="site-masthead"></div>
 
-                <p>
-                    Postdoc Researcher<br>
-                    Center for Language and Cognition (CLCG)<br>
-                    <a href="http://rug.nl" "><b>University of Groningen</b></a><br><br>
-                    Office: Harmonie Complex, Room 1311.417, 9712 EK Groningen<br>
-                    Email: huiyuanlai dot l AT gmail.com</font>
-                </p>
+<div id="main" role="main">
+    <div class="sidebar sticky">
+        <div id="site-sidebar"></div>
+    </div>
 
-                <p style="display: flex; align-items: center; gap: 8px;">
-                    <a href="https://scholar.google.com/citations?hl=en&user=8iMbL5oAAAAJ&view_op=list_works&sortby=pubdate"
-                       target="_blank">
-                        <img src="img/gscholar.png" height="30"></a>
-                    <a href="http://github.com/laihuiyuan" target="_blank">
-                        <img src="img/github.png" height="30"></a>
-                    <a href="https://x.com/huiyuanlai" target="_blank">
-                        <img src="img/x.png" height="30"></a>
-                    <a href="mailto:huiyuanlai.l@gmail.com" target="_blank">
-                        <img src="img/gmail.png" height="28"></a>
-                </p>
-            </td>
-        </tr>
+    <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+        <div class="page__inner-wrap">
+            <section class="page__content" itemprop="text">
 
-        <tr>
-            <td width="50">
-            </td>
-            <td colspan="3" align="left" height="20" valign="top" width="800">
-                <br>
-                <center>
-                    <table>
-                        <tbody>
-                        <tr>
-                            <th width="120px"><a href="news.html"><font size="4">NEWS</font></a></th>
-                            <th width="120px"><a href="publications.html"><font size="4">PUBLICATIONS</font></a></th>
-                            <th width="120px"><a href="index.html"><font size="4">ABOUT</font></a></th>
-                        </tr>
-                        </tbody>
-                    </table>
-                </center>
-                <hr/>
-            </td>
-        </tr>
+                <h1 id="publications">📄 Publications</h1>
+                <p class="pub-note">* denotes equal contribution.</p>
 
-
-        <tr style="line-height:130%">
-            <td width="50">
-            </td>
-            <td colspan="3" align="left" height="20" valign="top" width="800">
-                * denotes equal contribution.
-
-                <h3>2026</h3>
+                <h3 class="pub-year-title">2026</h3>
                 <ul>
                     <li><strong>TACLer: Tailored Curriculum Reinforcement Learning for Efficient Reasoning</strong>. <br>
                         <u>Huiyuan Lai</u> and Malvina Nissim. <br>
                         <i>ArXiv preprint</i>.<br>
-                        <a href="javascript:copy(div29, bib29)" class="tag-button bib">bib</a>
+                        <a href="javascript:copy(div30, bib30)" class="tag-button bib">bib</a>
                         <a href="https://arxiv.org/abs/2601.21711" target="_blank" class="tag-button pdf">pdf</a>
                         <a href="https://github.com/laihuiyuan/tacler" target="_blank" class="tag-button code-data">code</a>
                     </li>
-                    <div id="div29"></div>
-                    <div id="bib29" style="display:none">
+                    <div id="div30"></div>
+                    <div id="bib30" style="display:none">
                         <div class="bib-content"><pre>
 @article{lai-etal-2026-tacler,
     title = "TACLer: Tailored Curriculum Reinforcement Learning for Efficient Reasoning",
     author = "Lai, Huiyuan and Nissim, Malvina",
-    journal={arXiv preprint arXiv:2601.21711},
-    year={2026},
-    url={http://arxiv.org/abs/2601.21711}
+    journal="arXiv preprint arXiv:2601.21711",
+    year="2026",
+    url="http://arxiv.org/abs/2601.21711"
+}</pre></div></div>
+                </ul>
+
+                <ul>
+                    <li><strong>SarcasmMiner: A Dual-Track Post-Training Framework for Robust Audio-Visual Sarcasm Reasoning</strong>. <br>
+                        Zhu Li, Yongjian Chen, <u>Huiyuan Lai</u>, Xiyuan Gao, Shekhar Nayak, Matt Coler. <br>
+                        <i>ArXiv preprint</i>.<br>
+                        <a href="javascript:copy(div29, bib29)" class="tag-button bib">bib</a>
+                        <a href="https://arxiv.org/abs/2603.05275" target="_blank" class="tag-button pdf">pdf</a>
+                    </li>
+                    <div id="div29"></div>
+                    <div id="bib29" style="display:none">
+                        <div class="bib-content"><pre>
+@article{li-etal-2026-sarcasm,
+    title = "SarcasmMiner: A Dual-Track Post-Training Framework for
+             Robust Audio-Visual Sarcasm Reasoning",
+    author="Zhu Li and Yongjian Chen and Huiyuan Lai and
+            Xiyuan Gao and Shekhar Nayak and Matt Coler",
+    journal="arXiv preprint arXiv:2603.05275",
+    year="2026",
+    url="http://arxiv.org/abs/2603.05275"
 }</pre></div></div>
                 </ul>
 
 
-                <h3>2025</h3>
+                <h3 class="pub-year-title">2025</h3>
 
                 <ul>
                     <li><strong>Multidimensional Consistency Improves Reasoning in Language Models</strong>. <br>
@@ -185,7 +162,8 @@
                         Suixue Wang, Shilin Zhang, <u>Huiyuan Lai</u>, Qingchen Zhang. <br>
                         <i>In Proceedings of IJCAI 2025</i>.<br>
                         <a href="javascript:copy(div25, bib25)" class="tag-button bib">bib</a>
-                        <a href="" target="_blank" class="tag-button pdf">pdf</a>
+                        <a href="https://dl.acm.org/doi/10.24963/ijcai.2025/869" target="_blank"
+                           class="tag-button pdf">pdf</a>
                     </li>
                     <div id="div25"></div>
                     <div id="bib25" style="display:none">
@@ -202,7 +180,7 @@
                 </ul>
 
 
-                <h3>2024</h3>
+                <h3 class="pub-year-title">2024</h3>
 
                 <ul>
                     <li><strong>mCoT: Multilingual Instruction Tuning for Reasoning Consistency in Language
@@ -319,7 +297,8 @@
                         In <i>Proceedings of the 25th Annual Conference of The European Association for Machine
                             Translation</i>.<br>
                         <a href="javascript:copy(div20, bib20)" class="tag-button bib">bib</a>
-                        <a href="" target="_blank" class="tag-button pdf">pdf</a>
+                        <a href="https://aclanthology.org/2024.eamt-1.24/" target="_blank"
+                           class="tag-button pdf">pdf</a>
                     </li>
                     <div id="div20"></div>
                     <div id="bib20" style="display:none">
@@ -410,7 +389,7 @@
                 </ul>
 
 
-                <h3>2023</h3>
+                <h3 class="pub-year-title">2023</h3>
 
                 <ul>
                     <li><strong>Multidimensional Evaluation for Text Style Transfer Using ChatGPT</strong>. <br>
@@ -614,7 +593,7 @@
                 </ul>
 
 
-                <h3>2022</h3>
+                <h3 class="pub-year-title">2022</h3>
 
                 <ul>
                     <li><strong>Multi-Figurative Language Generation</strong>. <br>
@@ -715,7 +694,7 @@
                 </ul>
 
 
-                <h3>2021</h3>
+                <h3 class="pub-year-title">2021</h3>
 
                 <ul>
                     <li><strong>Generic resources are what you need: Style transfer tasks without
@@ -818,7 +797,7 @@
                 </ul>
 
 
-                <h3>2020</h3>
+                <h3 class="pub-year-title">2020</h3>
 
                 <ul>
                     <li><strong>On the interaction of automatic evaluation and task framing in headline
@@ -877,7 +856,7 @@
 }</pre></div></div>
                 </ul>
 
-                <h3>2019</h3>
+                <h3 class="pub-year-title">2019</h3>
 
                 <ul>
                     <li><strong>文本相似度计算方法研究综述 (A Review of Text Similarity Approaches)</strong>. <br>
@@ -900,21 +879,13 @@
     year={2019}
 }</pre></div></div>
                 </ul>
-                <center>
-                    <hr>
-                    <p style="display: flex; align-items: center; justify-content: center; gap: 5px; text-align: center;">
-                        &copy; Huiyuan Lai | Last updated: Nov 2025
-                        <a style="width: 30px; height: 30px; overflow: hidden; display: inline-block;">
-                            <script type="text/javascript" id="clstr_globe"
-                                    src="//clustrmaps.com/globe.js?d=Ye-Cfi6k793O1ouD4V00QreMBb89Ahgg9qvLanQpJlU"></script>
-                        </a>
-                    </p>
-                </center>
-            </td>
-        </tr>
-        </tbody>
-    </table>
-</center>
+
+            </section>
+        </div>
+    </article>
+</div>
+
+<div id="site-footer"></div>
 
 </body>
 </html>
