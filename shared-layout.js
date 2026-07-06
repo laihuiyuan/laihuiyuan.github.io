@@ -54,7 +54,7 @@
       <li><a href="https://github.com/laihuiyuan" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
       <li><i class="fas fa-fw fa-desktop" aria-hidden="true"></i> A407</li>
       <li><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> huiyuanlai dot l AT gmail.com</li>
-      <li><i class="fas fa-fw fa-location-dot" aria-hidden="true"></i> Groningen, the Netherlands</li>
+      <li><i class="fas fa-fw fa-location-dot" aria-hidden="true"></i> Nanjing, China</li>
     </ul>
   </div>
 </div>`;
