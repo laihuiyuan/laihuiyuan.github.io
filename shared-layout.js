@@ -5,7 +5,7 @@
   const pageKey = document.body.dataset.sitePage || "";
 
   const navItems = [
-    { key: "about", href: "index.html", label: "Home" },
+    { key: "home", href: "index.html", label: "Home" },
     { key: "news", href: "news.html", label: "News" },
     { key: "publications", href: "publications.html", label: "Publications" },
     { key: "about", href: "about.html", label: "About" },
