@@ -8,7 +8,7 @@
     { key: "about", href: "index.html", label: "Home" },
     { key: "news", href: "news.html", label: "News" },
     { key: "publications", href: "publications.html", label: "Publications" },
-    { key: "cv", href: "cv.html", label: "CV" },
+    { key: "about", href: "about.html", label: "About" },
   ];
 
   const navHtml = navItems
