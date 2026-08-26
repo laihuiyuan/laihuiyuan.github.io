@@ -80,9 +80,9 @@
     if (slot) {
       const counterScript = document.createElement("script");
       counterScript.type = "text/javascript";
-      counterScript.id = "clstr_globe";
+      counterScript.id = "mmvst_globe";
       counterScript.src =
-        "//clustrmaps.com/globe.js?d=Ye-Cfi6k793O1ouD4V00QreMBb89Ahgg9qvLanQpJlU";
+        "//mapmyvisitors.com/globe.js?d=jGoAeG4Os4vM_ujU2vCi1jWRhrsvwv9QL-AWeBxb5Bc";
       slot.appendChild(counterScript);
     }
   }
