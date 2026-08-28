@@ -80,9 +80,9 @@
     if (slot) {
       const counterScript = document.createElement("script");
       counterScript.type = "text/javascript";
-      counterScript.id = "mmvst_globe";
+      counterScript.id = "mapmyvisitors";
       counterScript.src =
-        "//mapmyvisitors.com/globe.js?d=jGoAeG4Os4vM_ujU2vCi1jWRhrsvwv9QL-AWeBxb5Bc";
+        "https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=n&d=ov2fiFPQjC95xlENu_VL0j6R9zUKxlm7bk1xmx-prWI&co=bfd8ea";
       slot.appendChild(counterScript);
     }
   }
